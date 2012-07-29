@@ -38,7 +38,7 @@
             <ul class="nav">
               <li><a href="index.html">Home</a></li>
 	      <li><a href="https://github.com/simplemx">GitHub</a></li>
-	      <li><a href="http://simplemx.iteye.com">Blog</a></li>
+	      <li><a href="simplemx.iteye.com">Blog</a></li>
               <li class="active"><a href="#about">About</a></li>
             </ul>
           </div><!--/.nav-collapse -->
