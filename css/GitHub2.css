@@ -278,6 +278,10 @@ pre {
         width: 854px;
         margin:0 auto;
     }
+    .container {
+        width: 854px;
+        margin:0 auto;
+    }
 }
 @media print {
   table, pre {
