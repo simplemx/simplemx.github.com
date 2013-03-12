@@ -20,7 +20,8 @@ $(function(){
 		$.get(blog["file"], null, function(data){
 			var converter = new Showdown.converter();
 			var html = converter.makeHtml(data);
-			$("#content").append(html);
+			$("#blog_content").append(html);
+			$("#title").append(blog["title"]);
 		}, "text");
 	}
 });
