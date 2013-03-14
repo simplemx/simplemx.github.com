@@ -274,10 +274,6 @@ pre {
     border: none; }
 
 @media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0 auto;
-    }
     .container {
         width: 854px;
         margin:0 auto;
