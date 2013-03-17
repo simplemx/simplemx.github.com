@@ -1,4 +1,9 @@
 var blog_list = [
+{
+		id : "5",
+		title : "迟来的2012总结",
+		file : "2013-03-18.md"
+	},
 	{
 		id : "4",
 		title : "这几天学习BigPipe的总结",
