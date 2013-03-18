@@ -55,8 +55,6 @@ line-height: 180%;
 	margin : 10px 0;
 }
 #content {
-	margin:0 10px;
-	text-align: center;	
 	overflow : hidden;
 	width : 100%;
 	min-height : 600px;
