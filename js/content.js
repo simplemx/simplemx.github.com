@@ -20,7 +20,7 @@ $(function(){
 		$.get(blog["file"], null, function(data){
 			var converter = new Showdown.converter();
 			var html = converter.makeHtml(data);
-			$("#blog_content").append(html);
+			$("body").append(html);
 			$("#title").append(blog["title"]);
 		}, "text");
 	}
