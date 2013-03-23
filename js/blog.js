@@ -3,7 +3,7 @@ var blog_list = [
 			id : "6",
 			title : "前端仔的一天",
 			file : "2013-03-23.md"
-	}，
+	},
 	{
 		id : "5",
 		title : "迟来的2012总结",
