@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>Blog</title>
     <link href="../css/GitHub2.css" rel="stylesheet">
+    <style type="text/css">
+      .date {
+        color : grey;
+        margin : 0 5px;
+      }
+    </style>
     <link rel="shortcut icon" href="../ico/favicon.ico">
   </head>
   <body>
@@ -18,7 +24,7 @@
       <ul class="blogs">
         {{#blogs}}
           <li>
-            <a href="content.html?id={{id}}">{{title}}</a>
+            <span class="date">{{date}}</span><a href="content.html?id={{id}}">{{title}}</a>
           </li>
         {{/blogs}}
       </ul>
