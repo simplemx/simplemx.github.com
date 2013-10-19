@@ -1,5 +1,10 @@
 var blog_list = [
 	{
+		id : "17",
+		title : "终端系统性能问题有感",
+		file : "2013-10-19.md"
+	},
+	{
 		id : "16",
 		title : "Session杂感",
 		file : "2013-10-01.md"
