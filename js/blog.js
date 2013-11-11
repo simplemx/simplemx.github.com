@@ -1,4 +1,9 @@
 var blog_list = [
+	{
+		id : "20",
+		title : "WishList",
+		file : "2013-11-11.md"
+	},
     {
 		id : "19",
 		title : "记终端系统性能问题解决",
