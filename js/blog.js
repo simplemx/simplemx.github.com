@@ -1,4 +1,9 @@
 var blog_list = [
+    {
+        id : "22",
+        title : "最近的流水账3",
+        file : "2013-12-5.md"
+    },
 	{
 		id : "21",
 		title : "恐慌区",
