@@ -1,4 +1,9 @@
 var blog_list = [
+    {
+        id : "24",
+        title : "Game Life",
+        file : "2014-02-19.md"
+    },
 	{
 		id : "23",
 		title : "Goodbye 2013",
