@@ -5,7 +5,7 @@ $(function(){
 		str = blogs[i]["file"]; 
 		blogs[i]["date"] = str.substring(0, str.indexOf("."));
 	}
-	var templateData = $("#indexTemplate").html();
+	var templateData = $("#blogsTemplate").html();
 	var templateHtml = Mustache.to_html(templateData, { blogs: blogs });
-	$("body").append(templateHtml);
+	$("#main_content").append(templateHtml);
 });

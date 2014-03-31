@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Simplemx</title>
-    <link href="css/GitHub2.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+<head>
+    <title>Simplemx's Home</title>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" href="ico/favicon.ico">
   </head>
   <body>
-     <h1>life is shit</h1>
-            <ul>
-	      <li><a href="https://github.com/simplemx">GitHub</a></li>
-	      <li><a href="/blog/index.html">Blog</a></li>
-	      <li><a href="http://www.douban.com/people/simplemx/">Douban</a></li>
-	     	<li><a href="http://weibo.com/tremblingblue">Weibo</a></li>
-            </ul>
-          
-
-     
-
-</body>
+      <header>
+        <h1>my adventure</h1>
+      </header>
+      <div class="container">
+          <div class="row">
+              <div id="menu_area" class="content_panel col-sx-12 text-center col-sm-2">
+                  <ul>
+                      <li><a href="index.html">Home<span></span></a></li>
+                      <li><a href="http://github.com/simplemx">Github<span></span></a></li>
+                      <li><a href="http://weibo.com/tremblingblue">Weibo<span></span></a></li>
+                      <li><a href="http://douban.com/simplemx">Douban<span></span></a></li>
+                      <li><a href="about.html">About Me<span></span></a></li>
+                  </ul>
+              </div>
+              <div id="main_content" class="content_panel col-sx-12 text-center col-sm-10">
+              </div>       
+          </div>
+      </div>
+      <script type="text/template" id="blogsTemplate">
+        <ul>
+        {{#blogs}}
+          <li>
+            <span class="date">{{date}}</span><a href="blog.html?id={{id}}">{{title}}</a>
+          </li>
+        {{/blogs}}
+        </ul>
+      </script>
+      <script src="js/jquery.js"></script>
+      <script src="js/blog.js"></script>
+      <script src="js/mustache.js"></script>
+      <script src="js/index.js"></script>
+  </body>
 </html>
+

@@ -1,4 +1,120 @@
-ul {
-    list-style: none;
-    padding-left:0;
+@font-face{
+    font-family : DejaVuSansMono;
+    src : url('DejaVuSansMono.ttf');
+}
+@font-face{
+    font-family : YaHeiConsolas;
+    src : url('YaHei.Consolas.1.11b.ttf');
+}
+body,h1,h2 {
+    font-family : DejaVuSansMono, YaHeiConsolas;
+}   
+header{
+    background-image : url("../img/header.jpg");
+    width : 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    text-align: center;
+    min-height: 400px;
+    overflow : hidden;
+    color : white;
+}
+header h1{
+    padding-top : 180px;
+}
+.content_panel {
+    padding-top : 20px;
+}
+.content_panel ul {
+    list-style : none;
+}
+#menu_area ul {
+    text-align : center;
+    font-size : 21px;
+}
+#menu_area ul a{
+    -webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all .5s ease-in-out; /* Safari 和 Chrome */
+	-o-transition: all .5s ease-in-out;
+}
+#menu_area ul span {
+    display: inline-block;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	margin: 5px 1px 0 5px;
+	border-width: 6px;
+	border-style: solid dashed dashed;
+	border-color: #0069ca transparent transparent;
+	vertical-align: middle;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all .5s ease-in-out; /* Safari 和 Chrome */
+	-o-transition: all .5s ease-in-out;
+}
+#menu_area a:hover span{
+    border-color: #2a6496 transparent transparent;
+	-webkit-transform: translate(0,-5px) rotate(-180deg);
+	transition: translate(0,-5px) rotate(-180deg);
+	-moz-transition: translate(0,-5px) rotate(-180deg); /* Firefox 4 */
+	-webkit-transition: translate(0,-5px) rotate(-180deg); /* Safari 和 Chrome */
+	-o-transition: translate(0,-5px) rotate(-180deg);
+}
+/* title */
+#main_content ul {
+    text-align : left;
+    font-size : 21px;
+    font-weight : bold;
+}
+#main_content ul>li {
+    margin-bottom : 5px;
+}
+.date {
+        color : grey;
+        margin-right : 5px;
+}
+#main_content ul li a{
+     -webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out; /* Firefox 4 */
+	-webkit-transition: all .5s ease-in-out; /* Safari 和 Chrome */
+	-o-transition: all .5s ease-in-out;
+}
+/* blog content */
+#main_content p {
+    font-size : 21px;
+    text-align : left;
+    margin-bottom : 20px;
+}
+#blog_content {
+    text-align: justify;
+}
+#blog_content h1, h2, h3{
+    font-weight : normal;
+} 
+#blog_content h3{
+    font-style : italic;
+}
+#blog_content p {
+    margin-top:0;
+    -webkit-hypens:auto;
+    -moz-hypens:auto;
+    hyphens:auto;
+}
+#blog_content ul {
+    font-weight : normal;
+    list-style: square;
+    padding-left:1.2em;
+}
+#blog_content ol {
+    padding-left:1.2em;
+}
+@media screen and (min-width : 768px) { 
+    #menu_area ul {
+        text-align : right;
     }
+}

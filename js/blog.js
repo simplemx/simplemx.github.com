@@ -1,4 +1,9 @@
 var blog_list = [
+    {
+        id : "26",
+        title : "个人主页改版",
+        file : "2014-03-30.md"
+    },
 	{
 		id : "25",
 		title : "Car",

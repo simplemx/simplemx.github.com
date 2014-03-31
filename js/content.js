@@ -17,11 +17,12 @@ $(function(){
 	}
 
 	if(blog){
-		$.get(blog["file"], null, function(data){
+		$.get("blog/" + blog["file"], null, function(data){
 			var converter = new Showdown.converter();
 			var html = converter.makeHtml(data);
-			$("body").append(html);
+			$("#blog_content").append(html);
 			$("#title").append(blog["title"]);
+            document.title = blog["title"];
 		}, "text");
 	}
 });
