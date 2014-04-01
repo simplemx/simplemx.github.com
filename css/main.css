@@ -2,12 +2,8 @@
     font-family : DejaVuSansMono;
     src : url('DejaVuSansMono.ttf');
 }
-@font-face{
-    font-family : YaHeiConsolas;
-    src : url('YaHei.Consolas.1.11b.ttf');
-}
 body,h1,h2 {
-    font-family : DejaVuSansMono, YaHeiConsolas;
+    font-family : DejaVuSansMono;
 }   
 header{
     background-image : url("../img/header.jpg");
