@@ -6,7 +6,7 @@ body,h1,h2 {
     font-family : DejaVuSansMono;
 }   
 header{
-    background-image : url("../img/header.jpg");
+    background-color : #0069ca;
     width : 100%;
     background-repeat: no-repeat;
     background-position: center 0;
@@ -17,7 +17,8 @@ header{
     color : white;
 }
 header h1{
-    padding-top : 180px;
+    font-size : 68px;
+    padding-top : 150px;
 }
 .content_panel {
     padding-top : 20px;
