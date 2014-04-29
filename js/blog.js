@@ -1,4 +1,9 @@
 var blog_list = [
+		{
+			id : "28",
+			title : "捣腾家电价钱插件",
+			file : "2014-04-28.md"
+		},
     {
     	  id : "27",
 	      title : "Time",
