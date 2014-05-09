@@ -1,4 +1,9 @@
 var blog_list = [
+      {
+          id : "30",
+          title : "记录一个单点登录问题",
+          file : "2014-05-09.md"
+      },
 		{
 			id: "29",
 			title : "Just Go On",
