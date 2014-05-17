@@ -1,4 +1,9 @@
 var blog_list = [
+		{
+			id : "31",
+			title : "XFire的CPU 100%问题跟踪",
+			file : "2014-05-17.md"
+	  },
       {
           id : "30",
           title : "记录一个单点登录问题",
