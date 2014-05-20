@@ -1,4 +1,9 @@
 var blog_list = [
+    {
+        id : "32",
+        title : "从原型转化为bootstrap页面的总结",
+        file : "2014-05-20.md"
+    },
 		{
 			id : "31",
 			title : "XFire的CPU 100%问题跟踪",
