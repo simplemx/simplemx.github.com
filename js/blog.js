@@ -1,4 +1,9 @@
 var blog_list = [
+		{
+		    id : "33",
+		    title : "2014WishList",
+		    file : "2014-06-05.md"
+		},
     {
         id : "32",
         title : "从原型转化为bootstrap页面的总结",
