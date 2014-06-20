@@ -28,11 +28,6 @@ $(function(){
 	    $("#main_content").append(templateHtml);
     };
 
-/*
-	var templateData = $("#blogsTemplate").html();
-	var templateHtml = Mustache.to_html(templateData, { blogs: blogs });
-	$("#main_content").append(templateHtml);
-    */
     show_next_page();
     
     var $win = $(window);
