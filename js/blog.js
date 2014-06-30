@@ -1,5 +1,10 @@
 var blog_list = [
 		{
+		    id : "39",
+		    title : "如果生活不能给你力量，就来听听Two Steps From Hell吧",
+		    file : "2014-06-30.md"
+		},
+		{
 		    id : "38",
 		    title : "终于考过路试",
 		    file : "2014-06-27.md"
