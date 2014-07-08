@@ -1,4 +1,10 @@
 var blog_list = [
+        {
+		    id : "40",
+		    title : "折腾Android环境",
+		    file : "2014-07-08.md"
+		},
+
 		{
 		    id : "39",
 		    title : "如果生活不能给你力量，就来听听Two Steps From Hell吧",
