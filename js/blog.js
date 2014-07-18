@@ -1,4 +1,9 @@
 var blog_list = [
+		{
+id : "41",
+   title : "hold on",
+   file : "2014-07-18.md"
+		},
         {
 		    id : "40",
 		    title : "折腾Android环境",
