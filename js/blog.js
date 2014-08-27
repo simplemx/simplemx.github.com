@@ -1,5 +1,10 @@
 var blog_list = [
 {
+id : "44",
+   title : "life is like a box of chocolate",
+   file : "2014-08-27.md"
+},
+{
 id : "43",
    title : "猝不及防的日子",
    file : "2014-08-11.md"
