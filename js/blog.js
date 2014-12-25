@@ -1,5 +1,10 @@
 var blog_list = [
 {
+	id : "48",
+	title : "最近的流水账",
+	file : "2014-12-24.md"
+},
+{
 	id : "47",
 	title : "brand new day",
 	file : "2014-10-27.md"
